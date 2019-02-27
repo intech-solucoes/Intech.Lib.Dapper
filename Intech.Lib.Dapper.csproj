@@ -3,6 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Rony Moura&lt;ronymmoura@gmail.com&gt;</Authors>
+    <Company>Intech</Company>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper.Contrib" Version="1.50.7" />
+    <PackageReference Include="Intech.Lib.Web" Version="1.0.1" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.18.3" />
+  </ItemGroup>
 
 </Project>

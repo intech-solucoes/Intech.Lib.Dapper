@@ -1,13 +1,12 @@
 ﻿#region Usings
 using Dapper.Contrib.Extensions;
 using Intech.Lib.Web;
-using Microsoft.Extensions.Configuration;
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Data.SqlClient;
-using System.Linq; 
+using System.Linq;
 #endregion
 
 namespace Intech.Lib.Dapper
