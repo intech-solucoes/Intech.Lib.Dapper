@@ -1,16 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Rony Moura&lt;ronymmoura@gmail.com&gt;</Authors>
     <Company>Intech</Company>
+    <Version>1.0.1</Version>
+    <Product>Intech.Lib.Dapper</Product>
+    <Description>Intech.Lib.Dapper</Description>
+    <PackageId>Intech.Lib.Dapper</PackageId>
+    <PackageReleaseNotes>Migrando dependências</PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper.Contrib" Version="1.50.7" />
-    <PackageReference Include="Intech.Lib.Web" Version="1.0.1" />
-    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.18.3" />
+    <PackageReference Include="Dapper.Contrib" Version="1.60.1" />
+    <PackageReference Include="Intech.Lib.Web" Version="1.0.2" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.18.6" />
   </ItemGroup>
 
 </Project>
