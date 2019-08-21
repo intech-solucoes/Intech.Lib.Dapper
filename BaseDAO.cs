@@ -92,6 +92,19 @@ namespace Intech.Lib.Dapper
             }
         }
 
+        public virtual bool DeletarPorChave(object chave)
+        {
+            try
+            {
+                var entidade = BuscarPorChave(chave);
+                return Conexao.Delete(entidade);
+            }
+            finally
+            {
+                Conexao.Close();
+            }
+        }
+
         public void Dispose()
         {
             Conexao.Close();
